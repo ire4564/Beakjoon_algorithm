@@ -1,5 +1,3 @@
-//순열 구하기 -> 그 순서대로 다 해보기 -> 가능한 경우만 + 1 -> 그만큼의 배열만 -> 그중 최대값 찾기
-
 const getPermutation = (arr, n) => {
   if (n === 1) return arr.map((el) => [el]);
   const result = [];
